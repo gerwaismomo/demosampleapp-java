@@ -1,0 +1,40 @@
+{
+	"Credential": "cf",
+	"Template": {
+		"Id": "@ext-mdkvsc-npm-dev/generator-mdk",
+		"Name": "Base",
+		"Version": "0.0.1"
+	},
+	"CF": {
+		"Target": "https://api.cf.us10-001.hana.ondemand.com",
+		"Organization": "ecbef7fa-7e8f-43d5-afa8-dee9c7cdb8b7",
+		"Space": "02a6420f-e548-4a43-87c1-862a0f7471d2"
+	},
+	"MobileService": {
+		"Type": "standard",
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.us10.hana.ondemand.com/cockpit/v1/org/ecbef7fa-7e8f-43d5-afa8-dee9c7cdb8b7/space/02a6420f-e548-4a43-87c1-862a0f7471d2",
+		"AppId": "myapp.mdk.demo",
+		"Destination": [
+			"com.sap.edm.sampleservice.v4"
+		]
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=myapp.mdk.demo&ClientId=01619ead-221f-4bf0-90ab-f733c7bd4ecc&ServerUrl=https://9f4ced66trial-dev-myapp-mdk-demo.cfapps.us10-001.hana.ondemand.com&SapCloudPlatformEndpoint=https://9f4ced66trial-dev-myapp-mdk-demo.cfapps.us10-001.hana.ondemand.com&AuthorizationEndpointUrl=https://9f4ced66trial-dev-myapp-mdk-demo.cfapps.us10-001.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://9f4ced66trial-dev-myapp-mdk-demo.cfapps.us10-001.hana.ondemand.com&TokenUrl=https://9f4ced66trial-dev-myapp-mdk-demo.cfapps.us10-001.hana.ondemand.com/oauth2/api/v1/token&multiUser=false"
+	},
+	"LCAP": {
+		"FullName": "",
+		"Service": [],
+		"sourceTemplate": {
+			"id": "html5moduletemplates.basicSAPUI5ApplicationProjectModule",
+			"version": "1.40.12"
+		}
+	},
+	"Build": {
+		"SourceMap": true,
+		"TSTarget": "es6",
+		"WMF": true,
+		"Platform": "iOS & Android"
+	}
+}
