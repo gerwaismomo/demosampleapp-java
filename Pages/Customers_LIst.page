@@ -29,6 +29,7 @@
 						"Headline": "{LastName}",
 						"Subheadline": "{FirstName}",
 						"Description": "{City}",
+						"OnPress": "/demosampleapp/Actions/NavToCustomers_Detail.action",
 						"ActivityItems": [
 							{
 								"_Name": "SectionContactCell0ActivityItems0",
